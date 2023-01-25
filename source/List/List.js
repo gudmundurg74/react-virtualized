@@ -132,6 +132,11 @@ export default class List extends React.PureComponent<Props> {
     return 0;
   }
 
+  /** See Grid#getTotalRowsHeight */
+  getTotalSize() {
+    return this.Grid.getTotalRowsHeight();
+  }
+
   /** CellMeasurer compatibility */
   invalidateCellSizeAfterRender({columnIndex, rowIndex}: CellPosition) {
     if (this.Grid) {

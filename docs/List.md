@@ -41,6 +41,10 @@ This may be appropriate if the underlying row data has changed but the row sizes
 
 Gets offset for a given row and alignment.
 
+##### getTotalSize ()
+
+Gets the total height of the all rows in the `List`.
+
 ##### measureAllRows
 
 Pre-measure all rows in a `List`.
